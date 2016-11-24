@@ -1,0 +1,6 @@
+app:
+  image: golang
+  working_dir: /usr/src/playground
+  command: go run main.go
+  volumes:
+    - .:/usr/src/playground
